@@ -14,4 +14,4 @@ class TestPigLatinTranslator(TestCase):
         translator = PigLatinTranslator("")
         translation= translator.translate()
         self.assertEqual("nil",translation)
-        pass
+
